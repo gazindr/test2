@@ -2453,6 +2453,7 @@ GameObject:
   - component: {fileID: 994936068}
   - component: {fileID: 994936067}
   - component: {fileID: 994936070}
+  - component: {fileID: 994936071}
   m_Layer: 5
   m_Name: ExitBtn
   m_TagString: Untagged
@@ -2589,9 +2590,9 @@ MonoBehaviour:
   eventPressed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1616395082}
-        m_TargetAssemblyTypeName: ButtonInstancer, Assembly-CSharp
-        m_MethodName: SetButton
+      - m_Target: {fileID: 994936071}
+        m_TargetAssemblyTypeName: QuitApp, Assembly-CSharp
+        m_MethodName: QuitThisApp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2601,6 +2602,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &994936071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994936065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d49f49436145e434a83afd120d7b5f29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1009864005
 GameObject:
   m_ObjectHideFlags: 0
